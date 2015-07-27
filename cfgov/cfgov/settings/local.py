@@ -41,6 +41,6 @@ STATIC_URL = '/static/'
 
 
 
-SHEER_SITES=[('/', CFGOV_REFRESH.child('dist'))]
+SHEER_SITES=[CFGOV_REFRESH.child('dist')]
 SHEER_ELASTICSEARCH_SERVER = 'localhost:9200'
 SHEER_ELASTICSEARCH_INDEX = 'content'
